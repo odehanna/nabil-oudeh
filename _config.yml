@@ -1,3 +1,4 @@
 markdown: redcarpet
 baseurl: /nabil-oudeh
 exlude: ['README.md']
+permalink: pretty
