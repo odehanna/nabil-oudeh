@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /nabil-oudeh
+exlude: ['README.md']
