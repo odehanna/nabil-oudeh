@@ -1,11 +1,30 @@
 * {margin: 0; padding: 0; outline: 0;}
 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+html{
+	background: #FFFFFF;
+	height: 100%;
+}
 
 body {
 	font-family: Helvetica, Arial, Verdana, sans-serif;
 	color: #e5e5e5;
 	font-size: 12px;
-	background:#bfbfbf;
+	background:#fff;
 
 
 }
@@ -46,10 +65,7 @@ a {
 
 .wrap {
 	width: 100%;
-	max-width: 1600px;
-	min-width: 960px;
 	z-index: 10;
-	position: relative;
 	margin: 0 auto;
 	padding: 0;
 
@@ -72,14 +88,16 @@ a {
 }
 
 .innertop{
+	overflow: hidden;
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
-	min-height: 146px;
+	display:block;
 }
 
 .inner {
-	width: 960px;
+	overflow: hidden;
+	width: 100%;
 	margin: 0 auto;
 	position: relative;
 	min-height: 50px;
@@ -97,7 +115,6 @@ a {
 
 
 .subMenu {
-	height: 50px;
 	z-index: 1000;
 	width: 100%;
 	background: #0977bc;
@@ -137,6 +154,7 @@ img {
 
 .img-flex{
 	float: left;
+	display:block;
 }
 
 
