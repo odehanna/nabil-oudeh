@@ -218,7 +218,8 @@ img {
 	font-size: 0.8rem;
 }
 
-.s1 h1{
+.s1 h1,
+.s3 h1{
 	color: #004a98;
 	font-size: 2rem;
 }
@@ -228,8 +229,8 @@ img {
 	font-size: 1.1rem;
 	margin: 0 15% 0 15%;
 }
-	.s1 h1{
-	color: #004a98;
+	.s1 h1,
+	.s3 h1{
 	font-size: 3rem;
 }
 }
@@ -250,6 +251,12 @@ color: #fff;
 padding-top: 3rem;
 }
 
+@media (min-width: 400px){
+	.s2 h1{
+	font-size: 3rem;
+}
+}
+
 .s2 a {
 	color: #fff;
 }
@@ -268,9 +275,12 @@ padding-top: 3rem;
 
 
 .s3 {
-	background: #1b83b3;
+	background: #fff;
 }
 
+.s3 h1{
+	padding-top: 4rem;
+}
 
 .s4 {
 	background: #5aa3c4;
