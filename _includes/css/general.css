@@ -111,14 +111,15 @@ a {
 }
 
 
-@media (min-width: 550px){
-	.subMenu {
+
+.subMenu {
 	height: 50px;
 	z-index: 1000;
 	width: 100%;
-	background: #fff;
+	background:rgba(255,255,255,0.5);
 }
-	}
+
+
 
 .subMenu .inner {
 	padding:0;
@@ -131,7 +132,7 @@ a {
 	font-weight: 400;
 	display: block;
 	height: 35px;
-	width: 21%;
+	width: 20%;
 	float: left;
 	margin: 0px 0px 0 0;
 	text-decoration: none;
@@ -156,7 +157,7 @@ a {
 }
 
 .active {
-	background: #25aae1;
+	color: #585858;
 }
 .end {
 	margin: 0;
