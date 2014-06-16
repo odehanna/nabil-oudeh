@@ -198,12 +198,17 @@ img {
 
 .s1 h1{
 	color: #004a98;
+	font-size: 2rem;
 }
 
 @media (min-width: 400px){
 	.s1 p{
 	font-size: 1.1rem;
 	margin: 0 15% 0 15%;
+}
+.s1 h1{
+	color: #004a98;
+	font-size: 3rem;
 }
 }
 
