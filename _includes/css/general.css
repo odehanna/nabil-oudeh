@@ -50,7 +50,7 @@ h2 {
 
 
 p {
-	margin: 0 0 15px 0;
+	margin: 0 8% 0 8%;
 }
 
 a {
@@ -79,8 +79,6 @@ a {
 
 .section {
 	width: 100%;
-	max-width: 1600px;
-	min-width: 960px;
 	z-index: 10;
 	position: relative;
 	margin: 0 auto;
@@ -101,7 +99,6 @@ a {
 	margin: 0 auto;
 	position: relative;
 	min-height: 50px;
-	padding:30px 0;
 }
 
 .inner:after {
@@ -178,12 +175,34 @@ img {
 
 }
 
-.s1 {
-	background:#184764;
-	color:#fff;
-
+.section{
+	margin: 2rem auto;
+	width: 100%;
 }
 
+.s1 {
+	background:#fff;
+	color:#000;
+}
+
+.s1 p{
+		font-family: 'Droid Serif', serif;
+		font-size: 0.8rem;
+}
+
+@media (min-width: 400px){
+	.s1 p{
+	font-size: 1.1rem;
+	margin: 0 15% 0 15%;
+}
+}
+
+@media (min-width: 600px){
+	.s1 p{
+		font-size: 1.3rem;
+		margin: 0 20% 0 20%;
+}
+}
 
 .s2 {
 	background: #313131;
