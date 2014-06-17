@@ -56,6 +56,8 @@ p {
 
 a {
 	color: #3e3e3e;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 
@@ -261,6 +263,10 @@ img {
 	background: #4f89bd;
 }
 
+.s2 p{
+	font-family: 'Droid Serif', serif;
+}
+
 .s2 h1,
 .s4 h1{
 color: #fff;
@@ -275,24 +281,28 @@ padding-bottom: 2rem;
 }
 }
 
-.s2 a {
-	color: #fff;
-}
-
-	.s2 p,
-	.s4 p{
+	.s2 p{
 	font-size: 1.3rem;
 	margin: 0 10% 0 10%;
 }
 
-@media (min-width: 600px){
-	.s2 p,
+@media (min-width: 800px){
+	.s2 p{
+	font-size: 1rem;
+	margin: 0 7% 0 7%;
+}
 	.s4 p{
-	font-size: 1.3rem;
+	font-size: 1rem;
 	margin: 0 7% 0 7%;
 }
 }
 
+@media (min-width: 1000px){
+	.s2 p{
+	font-size: 1.2rem;
+	margin: 0 7% 0 7%;
+}
+}
 
 .s3 {
 	background: #fff;
@@ -306,6 +316,32 @@ padding-bottom: 2rem;
 	background: #4f89bd;
 }
 
+.s4 p{
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	font-size: 1rem;
+	padding-top: 3rem;
+}
+
+@media (min-width: 700px){
+	.s4 p{
+		margin-left: 20%;
+		margin-right: 20%;
+		line-height: 3rem;
+	}
+	}
+
+@media (min-width: 400px){
+	.s4 p{
+		font-size: 1.3rem;
+	}
+}
+
+@media (min-width: 800px){
+	.s4 p{
+		font-size: 1.8rem;
+	}
+}
 
 
 hr {
@@ -332,4 +368,34 @@ hr {
 
 }
 
+#bold-contact{
+	font-size: 2.5rem;
+}
 
+.connect{
+	text-align: center;
+	padding-top: 3rem;
+}
+
+.connect img {
+	width: 50px;
+}
+
+@media (min-width: 350px){
+	.connect img {
+	width: 80px;
+}
+}
+
+footer{
+	background-color: #fff;
+	height: 50px;
+}
+
+footer p{
+	color: #004a98;
+	text-align: center;
+	font-size: 1rem;
+	font-family: 'Droid Serif', serif;
+	padding-top: 1rem;
+}
